@@ -32,7 +32,7 @@ while True:
     now = datetime.datetime.now()
     if str(now.second) == '0':
         if int(now.minute)%30 == 0:
-            showno = random.randint(1, 2)
+            showno = random.randint(1, 7)
             if int(showno) <= 3:
                 type = "Episode "
             else:
